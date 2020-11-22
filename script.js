@@ -1,3 +1,8 @@
+#<!--codes written by JENIPHER A. ONYANGO
+
+#        contact: jeniperkuki@gmail.com
+#                 +254 717 639 683
+#    -->
 function quitpopup(){
  let say= document.querySelectorAll('.cube'),
     one= document.querySelector('#player1points'),
