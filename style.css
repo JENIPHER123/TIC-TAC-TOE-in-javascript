@@ -1,0 +1,89 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.header{
+
+    height: 20vh;
+    font-family: serif;
+
+}
+.contain{
+    width: 400px;
+    margin:0 auto 0 auto;
+}
+.contain .box{
+    float: left;
+    width: 200px;
+    height: 100px;
+    cursor: pointer;
+    line-height: 100px;
+    
+   
+}
+.box1{
+    float: left;
+    width: 200px;
+    height: 100px;
+    cursor: pointer;
+   
+   
+}
+.reset, .quit{
+    width: 12em;
+}
+.contain .game{
+    margin-left: 32px;
+    margin-bottom: 20px;
+}
+.contain .game .cube{
+    border: 1px solid black;
+    float: left;
+    width: 120px;
+    height: 120px;
+    cursor: pointer;
+    line-height: 100px;
+    background: rgb(173, 171, 171);
+    text-align: center;
+    font-size: 6em;
+    
+
+}
+.contain .game .cube:hover{
+    background: grey;
+}
+.space{
+    float: left;
+    width: 400px;
+    height: 50px;
+    cursor: pointer;
+    line-height: 100px;
+
+}
+
+.quitmessage{
+    position: absolute;
+    background: white;
+    width: 500px;
+    height: 150px;
+    border: solid 3px rgb(58, 56, 56);
+    cursor: pointer;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%  , -50%);
+    display: none;
+    
+    
+}
+.quitmessage .title{
+    background: rgb(41, 41, 100);
+    padding:20px;
+    color: white;
+}
+.quitmessage .choice{
+   
+    width: 7em;
+    height: 2em;
+    font-size: 16px;
+    padding-bottom: 12px;
+}

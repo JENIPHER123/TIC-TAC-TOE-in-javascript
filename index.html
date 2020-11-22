@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>TICTACTOE IN JAVASCRIPT</title>
+</head>
+<body>
+    
+    <div class="header d-flex align-items-center justify-content-center">
+        <h1 class="text-center">CODDING WITH JENNY !!!</h1>
+    </div>
+
+    <div class="contain">
+        <div class="box pt-2" id="top">
+            <div class="player1 ">
+                <h4>PLAYER  1 : <span class="player1point pl-2 ml-5 mr-1" id="player1points">  0</span> </h4>
+                
+                <h4>PLAYER  2:<span class="player2points ml-5 pl-3" id="player2points">0</span> </h4>         
+            </div>      
+        </div>  
+        <div class="box1" id="top">
+            <button class="btn btn-success reset   ml-5" onclick="reset()">RESET</button>
+            <button class="btn btn-danger reset mt-1  ml-5" onclick="quitpopup()">QUIT</button>
+        </div>
+        
+        <!--creating the buttons-->
+        <div class="game " id="game">
+        <div class="cube" id="cube1"></div>
+        <div class="cube" id="cube2"></div>
+        <div class="cube" id="cube3"></div>
+        <div class="cube" id="cube4"></div>
+        <div class="cube" id="cube5"></div>
+        <div class="cube" id="cube6"></div>
+        <div class="cube" id="cube7"></div>
+        <div class="cube" id="cube8"></div>
+        <div class="cube" id="cube9"></div>
+        </div>
+        <div class="space" ></div>
+           
+        
+    </div>
+
+    <div class="cont1">
+    <div class="quitmessage text-center">
+        <div class="title">WELCOME TO ... CODDING WITH JENNY!!</div>
+        <div class="message mt-1"> Are you sure you want to quit the game?</div>
+        <button class="btn btn-primary choice text-center mt-2 " onclick="yesquit()">YES</button>
+        <button class="btn btn-danger choice text-center mt-2" onclick="noquit()">NO</button>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
